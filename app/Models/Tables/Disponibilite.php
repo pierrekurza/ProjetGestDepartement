@@ -1,7 +1,6 @@
 <?php
 namespace Models\Tables;
 
-
 use Helpers\DB\Entity;
 
 class Disponibilite extends Entity {

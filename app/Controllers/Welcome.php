@@ -25,7 +25,7 @@ class Welcome extends Controller
 		$this->LessonSQL = new LessonSQL();
 		$this->PlanningSQL = new PlanningSQL();
 		$this->AnomalieSQL = new AnomalieSQL();
-		//test
+
     }
 
     /**
