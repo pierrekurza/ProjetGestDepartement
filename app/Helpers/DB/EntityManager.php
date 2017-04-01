@@ -114,6 +114,4 @@ class EntityManager {
         $this->dbmanager->execute(array($instance->getId()));
     }
 }
-
-
 ?>

@@ -40,7 +40,6 @@ abstract class Entity {
     /**
      * @return true if the instance is not saved in DB
      */
-
     public function isNew() {
         return $this->id === false;
     }

@@ -13,12 +13,11 @@ use Helpers\Hooks;
 /** Define static routes. */
 
 // The default Routing
-/*
 Route::get('/',       'Welcome@index');
 Route::get('subpage', 'Welcome@subPage');
-*/
 
-//Sans 'router'
+
+/*
 Route::get('', 'Welcome@index');
 Route::get('horaires', 'Horaire@index');
 Route::get('tauxSalles', 'TauxSalle@index');
@@ -28,7 +27,7 @@ Route::get('rooms', 'Welcome@rooms');
 Route::get('anomalies', 'Welcome@anomalies');
 Route::get('indisponibilites', 'Indisponible@index');
 Route::get('absences/(:num)', 'Absence@getEtudiant');
-
+*/
 
 //Avec 'router'
 /*
@@ -42,7 +41,6 @@ Router::any('anomalies', 'Welcome@anomalies');
 Router::any('indisponibilites', 'Indisponible@index');
 Router::any('absences/(:num)', 'Absence@getEtudiant');
 */
-
 
 /*
 $hooks = Hooks::get();

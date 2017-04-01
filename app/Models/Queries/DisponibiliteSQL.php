@@ -7,9 +7,11 @@ use Helpers\DB\EntityManager;
 
 
 class DisponibiliteSQL extends Query {
-	
-	/*
-	public function anomalie(){ 
+
+
+
+	public function anomalie(){
+	    $data = array();
 		$sql = "SELECT  distinct a.teacher_id, 'DBLHOR' codeano, 'Plusieurs cours en même temps' msg,
 		   (select shortname from teacher where teacher.id = a.teacher_id) shortname
 		FROM lesson a, lesson b 
@@ -18,6 +20,6 @@ class DisponibiliteSQL extends Query {
 		and a.start < b.end
 		and a.end > b.start";
 		$sth = $data->prepare($sql)->execute();
+		return $sth;
 	}
-	*/
 }

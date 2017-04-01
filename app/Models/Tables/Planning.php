@@ -22,6 +22,5 @@ class Planning extends Entity {
         $this->td = $td;
         $this->tp = $tp;
     }
-
 }
 ?>
