@@ -1,0 +1,30 @@
+/* Your styles here */
+
+body
+{
+	background-color:#A4E338;
+	font-family:Arial;
+}
+
+h1
+{
+	color : red;
+}
+
+th
+{
+	border : solid orange;
+	text-align : center;
+}
+
+td
+{
+	text-align : center;
+	border : solid blue;
+	width : 200px;
+}
+
+.pasBon
+{
+color : red;
+}

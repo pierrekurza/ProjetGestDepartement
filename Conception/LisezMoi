@@ -1,0 +1,3 @@
+gestionDepartement-BaseVide.sql : contient une base de données vide
+gestionDepartementExemple.sql  : base de données remplie avec quelques données permettant de faire des test
+schemasBaseOpenEdt.mwb : ce fichier ne peut être lu que par MysqlWorkbench  https://www.mysql.fr/products/workbench/
